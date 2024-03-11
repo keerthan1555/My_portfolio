@@ -1,0 +1,100 @@
+body {
+	background-color: #fefae0;
+	background-image: url(./assets/generic/boat.gif);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+
+.row,
+body {
+	color: #576430;
+	font-family: 'Dosis', sans-serif;
+}
+
+.key-val-heading {
+	font-weight:bold; 
+}
+
+.row-item {
+	border-bottom: 2px solid #DBE7C9;
+}
+
+.content-card {
+	background-color: rgba(213, 240, 193, 0.8);
+	backdrop-filter: blur(5px);
+	border: 1px solid #ccd5ae;
+}
+
+.custom-seperator{
+	border: 1px solid #576430;
+}
+.card {
+	background-color: transparent;
+	border: none;
+}
+
+.navbar {
+	background-color: #e9edc9;
+	color: #ccd5ae;
+	font-family: 'Mynerve', cursive;
+	font-weight: bolder;
+	border: 1px solid #ccd5ae;
+}
+.list-unstyled li {
+	margin-bottom: 10px;
+ }
+
+ .list-unstyled li i {
+	margin-right: 5px;
+	color: #576430;
+ }
+ .list-unstyled li a {
+	text-decoration: none;
+	color: #576430;
+ }
+
+ .list-unstyled li a:hover {
+	color: #ffff;
+ }
+ .row-item .col a {
+	text-decoration: none;
+	color: #576430; 
+ }
+
+ .row-item .col a:hover {
+	color: #ffff; 
+ }
+ul.timeline {
+	list-style-type: none;
+	position: relative;
+}
+
+ul.timeline:before {
+	content: ' ';
+	background: #576430;
+	display: inline-block;
+	position: absolute;
+	left: 29px;
+	width: 2px;
+	height: 100%;
+	z-index: 400;
+}
+
+ul.timeline>li {
+	margin: 20px 0;
+	padding-left: 20px;
+}
+
+ul.timeline>li:before {
+	content: ' ';
+	background: white;
+	display: inline-block;
+	position: absolute;
+	border-radius: 50%;
+	border: 3px solid #576430;
+	left: 20px;
+	width: 20px;
+	height: 20px;
+	z-index: 400;
+}
